@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《红楼梦》人物关系网络</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>《红楼梦》人物关系网络</h1>
+        <div class="controls">
+            <button id="reset-zoom">重置缩放</button>
+        </div>
+        <div id="graph"></div>
+        <div id="info-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">×</span>
+                <h2 id="modal-name"></h2>
+                <p id="modal-info"></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
